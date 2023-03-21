@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import LoginForm from './LoginForm';
+import Product from './Product';
 function App() {
   let date='03/20/2023'
   return (
-    <div>{date}
-      <LoginForm></LoginForm>
+    <div>
+      {/* <LoginForm></LoginForm> */}
+      <Product></Product>
     </div>
   );
 }
